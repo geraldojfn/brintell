@@ -1,0 +1,139 @@
+ 
+ 
+DEBUG: Using PENTAHO_JAVA_HOME
+DEBUG: _PENTAHO_JAVA_HOME=C:\Program Files\Java\jdk-21
+DEBUG: _PENTAHO_JAVA=C:\Program Files\Java\jdk-21\bin\java.exe
+
+C:\Program Files\pentaho\data-integration>"C:\Program Files\Java\jdk-21\bin\java.exe" --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.net.www.protocol.jar=ALL-UNNAMED  "-Xms1024m" "-Xmx2048m" "-Djava.library.path=libswt\win64;/bin"  -Djava.locale.providers=COMPAT,SPI "-DKETTLE_HOME=" "-DKETTLE_REPOSITORY=" "-DKETTLE_USER=" "-DKETTLE_PASSWORD=" "-DKETTLE_PLUGIN_PACKAGES=" "-DKETTLE_LOG_SIZE_LIMIT=" "-DKETTLE_JNDI_ROOT=" -jar launcher\launcher.jar -lib ..\libswt\win64  -main org.pentaho.di.kitchen.Kitchen -initialDir "C:\Windows\system32"\ /file:"C:\TESTE ENTREVISTA\PDI\Job_dado_monitoramento.kjb" /level:Basic 
+2024/05/23 22:06:23 - Kitchen - Logging is at level : Log básico
+2024/05/23 22:06:23 - Kitchen - Start of run.
+2024/05/23 22:06:26 - Job_dado_monitoramento - Início da execução do job
+2024/05/23 22:06:26 - Job_dado_monitoramento - Starting entry [Transformation Dados Monitoramento]
+2024/05/23 22:06:27 - Transformation Dados Monitoramento - Using run configuration [Pentaho local]
+2024/05/23 22:06:27 - Dados_monitoramento - Expedindo in?cio para transforma??o [Dados_monitoramento]
+2024/05/23 22:06:27 - abundancia.0 - Connected to database [brintell] (commit=1000)
+2024/05/23 22:06:27 - Dados Pentaho Base.0 - Header row skipped in file 'C:\TESTE ENTREVISTA\Dados Pentaho Base.csv.xls'
+2024/05/23 22:06:27 - Dados Adicionais.0 - Header row skipped in file 'C:\TESTE ENTREVISTA\Dados Pentaho Adicional.csv.xls'
+2024/05/23 22:06:28 - Testa ID numerico.0 - Optimization level set to 9.
+2024/05/23 22:06:28 - Dados Adicionais.0 - Line number : 50000
+2024/05/23 22:06:28 - Sort rows - Dados Adicionais.0 - Linenr 50000
+2024/05/23 22:06:29 - Dados Adicionais.0 - Line number : 100000
+2024/05/23 22:06:29 - Sort rows - Dados Adicionais.0 - Linenr 100000
+2024/05/23 22:06:29 - Corrigir Horario.0 - Optimization level set to 9.
+2024/05/23 22:06:29 - Dados Adicionais.0 - Line number : 150000
+2024/05/23 22:06:29 - Dados Adicionais.0 - Finished processing (I=150493, O=0, R=0, W=150492, U=0, E=0)
+2024/05/23 22:06:29 - Sort rows - Dados Adicionais.0 - Linenr 150000
+2024/05/23 22:06:30 - Dados Pentaho Base.0 - Line number : 50000
+2024/05/23 22:06:30 - Remove registro com erro.0 - linenr 50000
+2024/05/23 22:06:30 - Testa ID numerico.0 - linenr 50000
+2024/05/23 22:06:30 - Filtra numerico.0 - linenr 50000
+2024/05/23 22:06:30 - Corrigir Horario.0 - linenr 50000
+2024/05/23 22:06:30 - Select values 3.0 - linenr 50000
+2024/05/23 22:06:30 - Sort rows - Dados Base.0 - Linenr 50000
+2024/05/23 22:06:30 - Dados Pentaho Base.0 - Line number : 100000
+2024/05/23 22:06:30 - Remove registro com erro.0 - linenr 100000
+2024/05/23 22:06:30 - Testa ID numerico.0 - linenr 100000
+2024/05/23 22:06:30 - Filtra numerico.0 - linenr 100000
+2024/05/23 22:06:31 - Corrigir Horario.0 - linenr 100000
+2024/05/23 22:06:31 - Select values 3.0 - linenr 100000
+2024/05/23 22:06:31 - Sort rows - Dados Base.0 - Linenr 100000
+2024/05/23 22:06:31 - Log campos excluídos.0 - 
+2024/05/23 22:06:31 - Log campos excluídos.0 - ------------> Linenr 1------------------------------
+2024/05/23 22:06:31 - Log campos excluídos.0 - REGISTRO EXCLUIDO
+2024/05/23 22:06:31 - Log campos excluídos.0 - 
+2024/05/23 22:06:31 - Log campos excluídos.0 - ID = TUCANUS
+2024/05/23 22:06:31 - Log campos excluídos.0 - CAMPANHA = 1
+2024/05/23 22:06:31 - Log campos excluídos.0 - ETAPA = null
+2024/05/23 22:06:31 - Log campos excluídos.0 - MODULO = null
+2024/05/23 22:06:31 - Log campos excluídos.0 - DATA_REGISTRO = null
+2024/05/23 22:06:31 - Log campos excluídos.0 - HORARIO = null
+2024/05/23 22:06:31 - Log campos excluídos.0 - PERIODO_SAZONAL = null
+2024/05/23 22:06:31 - Log campos excluídos.0 - NOME_CIENTIFICO = null
+2024/05/23 22:06:31 - Log campos excluídos.0 - ABUNDANCIA_INDIVIDUOS = null
+2024/05/23 22:06:31 - Log campos excluídos.0 - 
+2024/05/23 22:06:31 - Log campos excluídos.0 - ====================
+2024/05/23 22:06:31 - Dados Pentaho Base.0 - Line number : 150000
+2024/05/23 22:06:31 - Dados Pentaho Base.0 - Finished processing (I=150494, O=0, R=0, W=150493, U=0, E=0)
+2024/05/23 22:06:31 - Remove registro com erro.0 - linenr 150000
+2024/05/23 22:06:31 - Testa ID numerico.0 - linenr 150000
+2024/05/23 22:06:31 - Filtra numerico.0 - linenr 150000
+2024/05/23 22:06:31 - Remove registro com erro.0 - Finished processing (I=0, O=0, R=150493, W=150493, U=0, E=0)
+2024/05/23 22:06:31 - Log campos excluídos.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2024/05/23 22:06:31 - Testa ID numerico.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:31 - Corrigir Horario.0 - linenr 150000
+2024/05/23 22:06:31 - Filtra numerico.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:31 - Corrigir Nome Cientifico.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:31 - Corrigir Etapa.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:31 - Select values 3.0 - linenr 150000
+2024/05/23 22:06:31 - Sort rows - Dados Base.0 - Linenr 150000
+2024/05/23 22:06:31 - Corrigir Horario.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:31 - Corrigir Abundancia.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:31 - String operations 2.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:31 - Select values 3.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:31 - Merge join - Dados base - Dados Adicionais.0 - linenr 50000
+2024/05/23 22:06:32 - Merge join - Dados base - Dados Adicionais.0 - linenr 100000
+2024/05/23 22:06:32 - Select values.0 - linenr 50000
+2024/05/23 22:06:32 - Sort rows -Camp Etapa e Modulo.0 - Linenr 50000
+2024/05/23 22:06:32 - Merge join - Dados base - Dados Adicionais.0 - linenr 150000
+2024/05/23 22:06:32 - Merge join - Dados base - Dados Adicionais.0 - linenr 200000
+2024/05/23 22:06:32 - Select values.0 - linenr 100000
+2024/05/23 22:06:32 - Sort rows -Camp Etapa e Modulo.0 - Linenr 100000
+2024/05/23 22:06:32 - Merge join - Dados base - Dados Adicionais.0 - linenr 250000
+2024/05/23 22:06:32 - Sort rows - Dados Adicionais.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:32 - Sort rows - Dados Base.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:32 - Merge join - Dados base - Dados Adicionais.0 - linenr 300000
+2024/05/23 22:06:32 - Select values.0 - linenr 150000
+2024/05/23 22:06:32 - Sort rows -Camp Etapa e Modulo.0 - Linenr 150000
+2024/05/23 22:06:32 - Merge join - Dados base - Dados Adicionais.0 - Finished processing (I=0, O=0, R=300984, W=150492, U=0, E=0)
+2024/05/23 22:06:32 - Select values.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:32 - Nome Cientifico LIPAUGUS VOCIFERANS.0 - Optimization level set to 9.
+2024/05/23 22:06:32 - Juntar Horario.0 - Optimization level set to 9.
+2024/05/23 22:06:33 - Group by - Camp Etapa e Modulo.0 - Linenr 50000
+2024/05/23 22:06:33 - Nome Cientifico LIPAUGUS VOCIFERANS.0 - linenr 50000
+2024/05/23 22:06:33 - Juntar Horario.0 - linenr 50000
+2024/05/23 22:06:33 - Altera tipo Data_hora.0 - linenr 50000
+2024/05/23 22:06:33 - Sort rows.0 - Linenr 50000
+2024/05/23 22:06:34 - Group by - Camp Etapa e Modulo.0 - Linenr 100000
+2024/05/23 22:06:34 - Nome Cientifico LIPAUGUS VOCIFERANS.0 - linenr 100000
+2024/05/23 22:06:34 - Juntar Horario.0 - linenr 100000
+2024/05/23 22:06:34 - Altera tipo Data_hora.0 - linenr 100000
+2024/05/23 22:06:34 - Sort rows.0 - Linenr 100000
+2024/05/23 22:06:34 - Sort rows -Camp Etapa e Modulo.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:34 - Group by - Camp Etapa e Modulo.0 - Linenr 150000
+2024/05/23 22:06:34 - Group by - Camp Etapa e Modulo.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:34 - Nome Cientifico LIPAUGUS VOCIFERANS.0 - linenr 150000
+2024/05/23 22:06:34 - Nome Cientifico LIPAUGUS VOCIFERANS.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:34 - Juntar Horario.0 - linenr 150000
+2024/05/23 22:06:34 - Altera tipo Data_hora.0 - linenr 150000
+2024/05/23 22:06:34 - Sort rows.0 - Linenr 150000
+2024/05/23 22:06:34 - Juntar Horario.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:34 - Altera tipo Data_hora.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:34 - String operations.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:36 - Group by - data_registtro.0 - Linenr 50000
+2024/05/23 22:06:36 - Qtd dia distintos.0 - linenr 50000
+2024/05/23 22:06:38 - Cast ID to Integer.0 - linenr 50000
+2024/05/23 22:06:38 - Group by - data_registtro.0 - Linenr 100000
+2024/05/23 22:06:39 - abundancia.0 - linenr 50000
+2024/05/23 22:06:39 - Qtd dia distintos.0 - linenr 100000
+2024/05/23 22:06:40 - Cast ID to Integer.0 - linenr 100000
+2024/05/23 22:06:41 - Sort rows.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:41 - Group by - data_registtro.0 - Linenr 150000
+2024/05/23 22:06:41 - Group by - data_registtro.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:42 - abundancia.0 - linenr 100000
+2024/05/23 22:06:42 - Qtd dia distintos.0 - linenr 150000
+2024/05/23 22:06:42 - Qtd dia distintos.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:42 - Excluir mascara.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:43 - Get system info.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:43 - Cast ID to Integer.0 - linenr 150000
+2024/05/23 22:06:43 - Cast ID to Integer.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:44 - Corrigir Status.0 - Finished processing (I=0, O=0, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:44 - abundancia.0 - linenr 150000
+2024/05/23 22:06:44 - abundancia.0 - Finished processing (I=0, O=150492, R=150492, W=150492, U=0, E=0)
+2024/05/23 22:06:44 - Job_dado_monitoramento - Starting entry [Success]
+2024/05/23 22:06:44 - Job_dado_monitoramento - Finished job entry [Success] (result=[true])
+2024/05/23 22:06:44 - Job_dado_monitoramento - Finished job entry [Transformation Dados Monitoramento] (result=[true])
+2024/05/23 22:06:44 - Job_dado_monitoramento - Job execution finished
+2024/05/23 22:06:44 - Kitchen - Finished!
+2024/05/23 22:06:44 - Kitchen - Start=2024/05/23 22:06:26.801, Stop=2024/05/23 22:06:44.759
+2024/05/23 22:06:44 - Kitchen - Processing ended after 17 seconds.
+ 
